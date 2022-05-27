@@ -1,0 +1,13 @@
+connector:
+  name: art6
+  identifier: art6
+  description:
+  orgIdentifier: default
+  projectIdentifier: GitFt6
+  type: Artifactory
+  spec:
+    artifactoryServerUrl: test.com
+    auth:
+      type: Anonymous
+    delegateSelectors:
+    - acctgroup
